@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import Moviecard from "../Components/MovieCard"
+import Moviecard from "../Components/Moviecard"
 
 const Home = () => {
 
