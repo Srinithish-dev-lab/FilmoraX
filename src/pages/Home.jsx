@@ -33,7 +33,7 @@ const Home = () => {
         />
       </div>
 
-      <div className="movie-container grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 l gap-4 mt-16">
+      <div className="movie-container grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-16">
         {movies.map((movie, idx) => {
           return <Moviecard key={idx} movie={movie} />;
         })}
