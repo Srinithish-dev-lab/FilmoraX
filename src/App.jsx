@@ -4,7 +4,6 @@ import Home from "./pages/Home"
 import Watchlist from "./pages/Watchlist"
 import { WatchListProvider } from './context/WatchListContext'
 
-
 function App() {
 
   return (
