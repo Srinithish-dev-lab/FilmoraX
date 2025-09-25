@@ -4,7 +4,7 @@ import Moviecard from "../Components/Moviecard"
 const Home = () => {
 
   const [movies, setMovies] = useState([])
-  const [page, setPage] = useState(1)
+  const [page, setPage] = useState(0)
   const [search, setSearch] = useState("")
 
 
