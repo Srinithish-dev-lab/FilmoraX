@@ -9,7 +9,7 @@ const Moviecard = ({movie}) => {
 
 
   return (
-    <div className='bg-gray-800 p-4 rounded-lg shadow-md text-white relative'>
+    <div className='bg-gray-800 p-4 rounded-lg shadow-md text-white relative transform transition-transform duration-300 hover:scale-105'>
       <img className='w-full h-80 object-contain rounded-sm' src={ `https://image.tmdb.org/t/p/w500${movie.poster_path}`} alt={movie.title} />
       <h3 className='text-xl font-bold mt-4'>{movie.title}</h3>
       <p className='text-base text-gray-400 mt-1'>{movie.release_date}</p>
