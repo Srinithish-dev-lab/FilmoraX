@@ -8,7 +8,7 @@ export const WatchListProvider = ({children}) => {
 
     useEffect(() => {
     
-        let url = `https://api.themoviedb.org/3/genre/movie/list?api_key=${process.env.REACT_APP_TMDB_KEY}`
+        let url = `https://api.themoviedb.org/3/genre/movie/list?api_key=${apiKey}`
     
         fetch(url)
         .then(response => response.json())
