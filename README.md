@@ -16,11 +16,11 @@ A **React-based movie application** that allows users to **browse popular movies
 
 ## 🌐 Live Demo
 
-Check out the live app here: [FilmoraX Live](https://<your-live-link>.vercel.app)
+Check out the live app here: [FilmoraX Live](https://filmora-x.vercel.app/)
 
 ## 📂 GitHub Repository
 
-View the source code here: [FilmoraX Repo](https://github.com/<your-username>/filmorax)
+View the source code here: [FilmoraX Repo](https://github.com/Srinithish-dev-lab/FilmoraX)
 
 ---
 
