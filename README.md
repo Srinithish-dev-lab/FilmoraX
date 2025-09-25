@@ -9,9 +9,15 @@ A **React-based movie application** that allows users to **browse popular movies
 ---
 
 ## 📸 Screenshots
-(screenshots/filmoraX_1.png)
-(screenshots/filmoraX_2.png)
-(screenshots/filmoraX_3.png)
+
+### Home Page
+![Home Page](screenshots/filmoraX_1.png)
+
+### Watchlist Page
+![Watchlist Page](screenshots/filmoraX_2.png)
+
+### Movie Card
+![Movie Card](screenshots/filmoraX_3.png)
 
 ---
 
