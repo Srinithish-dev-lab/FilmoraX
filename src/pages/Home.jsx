@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react"
+const apiKey = process.env.REACT_APP_TMDB_KEY;
 import Moviecard from "../Components/Moviecard"
 
 const Home = () => {
@@ -10,10 +11,10 @@ const Home = () => {
 
   useEffect(() => {
 
-    let url = `https://api.themoviedb.org/3/movie/popular?page=${page}&api_key=${process.env.REACT_APP_TMDB_KEY}`
+    let url = `https://api.themoviedb.org/3/movie/popular?page=${page}&api_key=${apiKey}`
 
     if (search){
-      url = `https://api.themoviedb.org/3/search/movie?query=${search}&api_key=${process.env.REACT_APP_TMDB_KEY}`
+      url = `https://api.themoviedb.org/3/search/movie?query=${search}&api_key=${apiKey}`
     }
 
     fetch(url)
