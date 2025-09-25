@@ -1,4 +1,5 @@
 import React, { createContext, useState, useEffect} from 'react'
+const apiKey = process.env.REACT_APP_TMDB_KEY;
 
 export const WatchListContext = createContext()
 
