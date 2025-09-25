@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-const apiKey = process.env.REACT_APP_TMDB_KEY;
+const apiKey = import.meta.env.VITE_TMDB_KEY;
 import Moviecard from "../Components/Moviecard"
 
 const Home = () => {
