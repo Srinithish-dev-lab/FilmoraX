@@ -10,10 +10,10 @@ const Home = () => {
 
   useEffect(() => {
 
-    let url = `https://api.themoviedb.org/3/movie/popular?page=${page}&api_key=307c20304dd739d7724f8d46033a24db`
+    let url = `https://api.themoviedb.org/3/movie/popular?page=${page}&api_key=${process.env.REACT_APP_TMDB_KEY}`
 
     if (search){
-      url = `https://api.themoviedb.org/3/search/movie?query=${search}&api_key=307c20304dd739d7724f8d46033a24db`
+      url = `https://api.themoviedb.org/3/search/movie?query=${search}&api_key=${process.env.REACT_APP_TMDB_KEY}`
     }
 
     fetch(url)
