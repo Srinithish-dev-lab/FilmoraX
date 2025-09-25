@@ -14,10 +14,10 @@ A **React-based movie application** that allows users to **browse popular movies
 ![Home Page](screenshots/filmoraX_1.png)
 
 ### Watchlist Page
-![Watchlist Page](screenshots/filmoraX_2.png)
+![Movie Card](screenshots/filmoraX_2.png)
 
 ### Movie Card
-![Movie Card](screenshots/filmoraX_3.png)
+![Watchlist Page](screenshots/filmoraX_3.png)
 
 ---
 
@@ -72,7 +72,7 @@ View the source code here: [FilmoraX Repo](https://github.com/Srinithish-dev-lab
    ```git clone https://github.com/<your-username>/filmorax.git
    cd filmorax
    npm install
-   npm start```
+   npm start
 
 ## 🎮 Usage
 
