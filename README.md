@@ -13,10 +13,10 @@ A **React-based movie application** that allows users to **browse popular movies
 ### Home Page
 ![Home Page](screenshots/filmoraX_1.png)
 
-### Watchlist Page
+### Movie Card
 ![Movie Card](screenshots/filmoraX_2.png)
 
-### Movie Card
+### Watchlist Page
 ![Watchlist Page](screenshots/filmoraX_3.png)
 
 ---
